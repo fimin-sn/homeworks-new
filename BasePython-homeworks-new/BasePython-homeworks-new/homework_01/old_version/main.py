@@ -68,9 +68,6 @@ def filter_numbers(list_numbers,filter_types):
 
 
 #Test for function select_simple_numbers(*args):
-
-#s = select_simple_numbers(1,2,3,4,5,6,7,8,9,10,998,997,1027,1021,138,137,270,277,281,70,73,17,16,19,10,2,840,839,18,20.1,complex(2,4),8861,8859,16831,16850,182200,188389)
-
 print(filter_numbers([1, 2, 3], ODD))
 print(filter_numbers([2, 3, 4, 5], EVEN))
 print(filter_numbers([1,2, 3, 4, 5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,complex(2,3),15.1,138,137,270,277,281,998,997,1027,1021,8861,8859,16831,16850,182200,188389], PRIME))
